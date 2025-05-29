@@ -160,7 +160,7 @@ const saveTasks = (task) => {
   let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
   // console.log(localStorage.getItem("tasks"));
   // console.log(JSON.parse(localStorage.getItem("tasks")));
-  task.complete = false;
+  // task.complete = false;
   tasks.push(task);
   // console.log(tasks);
   localStorage.setItem("tasks", JSON.stringify(tasks));
